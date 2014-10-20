@@ -28,7 +28,7 @@ Men for å sikre en bedre samarbeide jeg har et forslag slik som å dele oppgave
 Der er å merke ut hvem som skal ta hovedansvar for hva:
 
 
-<table >
+<table align="left">
   <tr>
     <th width="50%">1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
     <th width="50%"></th>
