@@ -2,6 +2,10 @@ Wprosjekt
 =========
 Denne mappen er for å dele fil samt å beholden historikk!
 
+Noen ting vi gjøre : Brainstormen/
+
+
+
 
 Noe krav om først del av rapporten:
 
