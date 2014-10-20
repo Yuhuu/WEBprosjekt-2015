@@ -24,41 +24,41 @@ Men for å sikre en bedre samarbeide jeg har et forslag slik som å dele oppgave
 Der er å merke ut hvem som skal ta hovedansvar for hva:
 
 
-<table align="left">
+<table>
   <tr align="left">
     <th width="50%">1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
     <th width="50%"></th>
   </tr>
-  <tr>
+  <tr align="left">
   <th width="50%">2/, Slutt kontrol av rapporten(Men aller må skrive rapporten)</th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">3/, PHP validering</th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">4/, Javascript validering</th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">5/, Css og responsive design</th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">6/, Tilgjengligheten</th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">7/, Dokumentere og timePlan</th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">
 8/, Intervijuet for å finne ut behov til brukere </th>
     <th width="50%"></th>
   </tr>
-    <tr>
+    <tr align="left">
   <th width="50%">9/. Juridiske hensynn(ikke misbruk bildet ogsånn)</th>
     <th width="50%"></th>
   </tr>
