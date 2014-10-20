@@ -27,20 +27,20 @@ Vi treffes og arbeide stor sett samme så oppgaver fordeling er kanskje ikke så
 Men for å sikre en bedre samarbeide jeg har et forslag slik som å dele oppgaver med egne interesser. 
 Der er å merke ut hvem som skal ta hovedansvar for hva:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-<table class="tg">
+
+<table >
   <tr>
-    <th class="tg-031e">1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
-    <th class="tg-031e"></th>
+    <th >1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
+    <th style="width:30px"></th>
+  </tr>
+  <tr>
+  <th >2/, Slutt kontrol av rapporten(Men aller må skrive rapporten)</th>
+    <th style="width:30px"></th>
   </tr>
 </table>
 
 
-2/, Slutt kontrol av rapporten(Men aller må skrive rapporten)
+
 
 
 3/, PHP validering
