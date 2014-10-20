@@ -30,28 +30,46 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
 
 <table >
   <tr>
-    <th >1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
-    <th style="width:30px"></th>
+    <th width="50%">1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
+    <th width="50%"></th>
   </tr>
   <tr>
-  <th >2/, Slutt kontrol av rapporten(Men aller må skrive rapporten)</th>
-    <th style="width:30px"></th>
+  <th width="50%">2/, Slutt kontrol av rapporten(Men aller må skrive rapporten)</th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">3/, PHP validering</th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">4/, Javascript validering</th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">5/, Css og responsive design</th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">6/, Tilgjengligheten</th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">7/, Dokumentere og timePlan</th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">
+8/, Intervijuet for å finne ut behov til brukere </th>
+    <th width="50%"></th>
+  </tr>
+    <tr>
+  <th width="50%">9/. Juridiske hensynn(ikke misbruk bildet ogsånn)</th>
+    <th width="50%"></th>
   </tr>
 </table>
 
 
 
-
-
-3/, PHP validering
-4/, Javascript validering
-5/, Css og responsive design
-6/, Tilgjengligheten
-
-
-7/, Dokumentere og timePlan
-8/, Intervijuet for å finne ut behov til brukere 
-9/. Juridiske hensynn(ikke misbruk bildet ogsånn)
 
 5. En milepælsplan over hva som skal være ferdig når 
 
