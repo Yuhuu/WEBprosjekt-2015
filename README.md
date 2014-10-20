@@ -4,11 +4,7 @@ _____________________________
 Denne mappen er for å dele fil samt å beholden historikk!
 
 
-
-
-
-
-<h2>Noe krav om først del av rapporten:</h2>
+<h3>Noe krav om først del av rapporten:</h3>
 
 
 1. Dere skal lage en plan for arbeidet som skal legges ut på gruppens hjemmeområde, under /forprosjekt.html og leveres her.
@@ -29,7 +25,7 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
 
 
 <table align="left">
-  <tr>
+  <tr align="left">
     <th width="50%">1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
     <th width="50%"></th>
   </tr>
