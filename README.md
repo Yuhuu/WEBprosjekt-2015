@@ -2,7 +2,7 @@ Wprosjekt
 =========
 Denne mappen er for å dele fil samt å beholden historikk!
 
-Noen ting vi gjøre : Brainstormen/
+Noen ting vi gjøre idag 20 Okt: Brainstormen/finn idé til nettside/
 
 
 
