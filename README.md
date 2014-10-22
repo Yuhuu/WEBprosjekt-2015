@@ -34,7 +34,7 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
     <th width="50%"></th>
   </tr>
     <tr align="left">
-  <th width="50%">3/, PHP validering</th>
+  <th width="50%">3/, HTML validering</th>
     <th width="50%"></th>
   </tr>
     <tr align="left">
@@ -42,7 +42,7 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
     <th width="50%"></th>
   </tr>
     <tr align="left">
-  <th width="50%">5/, Css og responsive design</th>
+  <th width="50%">5/, css og responsivt design</th>
     <th width="50%"></th>
   </tr>
     <tr align="left">
@@ -50,7 +50,7 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
     <th width="50%"></th>
   </tr>
     <tr align="left">
-  <th width="50%">7/, Dokumentere og timePlan</th>
+  <th width="50%">7/, Dokumentere og RisikoPlan</th>
     <th width="50%"></th>
   </tr>
     <tr align="left">
@@ -68,6 +68,17 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
 
 
 5. En milepælsplan over hva som skal være ferdig når 
+
+<table>
+  <tr align="left">
+    <th width="50%">1. 22 okt/ finne idé for hva vi skal lage </th>
+    <th width="50%"></th>
+  </tr>
+  <tr align="left">
+  <th width="50%">2. 30 okt/ forprosjektsrapporten)</th>
+    <th width="50%"></th>
+  </tr>
+</table>
 
 
 
