@@ -23,62 +23,27 @@ Vi treffes og arbeide stor sett samme så oppgaver fordeling er kanskje ikke så
 Men for å sikre en bedre samarbeide jeg har et forslag slik som å dele oppgaver med egne interesser. 
 Der er å merke ut hvem som skal ta hovedansvar for hva:
 
+Vi valgte å fordele arbeidsoppgaver etter den personens sterkeste ferdigheter som er relevant til prosjektet. Ettersom alle i gruppa har kunnskaper om HTML og CSS, etter timene med Webprosjekt, har alle muligheter til å delta i selve kodingen av siden.
+Designet: skisser, fonter, arkitektur, prototype og designmessig oversikt over siden blir hovedsakelig håndtert med Yuan i fronten. Det er hennes oppgave å sette opp eksempler på hvordan sluttresultatet skal se ut for å få enighet mellom gruppemedlemmene.
+Rapporten vil bli satt sammen av bidrag fra alle i gruppa. Sluttkontroll av rapporten er gitt til Kristoffer, men det vil bli både Kristoffer og Evens ansvar å oversette William sin del av rapporten til norsk. Kristoffer vil håndtere eventuelle stavefeil og grammatikk.
+Validering av HTML-koden er Even sjefen for. Selv om alle i gruppa vil bidra med sin egen kode, er det Even sin jobb å se gjennom koden etter feil og rydde opp i uryddig/stygg koding. 
+Validering av Javascript er gitt til Yuan. Hun vil ha oversyn over koden til de forskjellige funksjonene på siden og ha ansvar for at de fungerer. Selv om hun er på toppen i denne stillingen, vil alle ha noe å gjøre med Javascript-koden.
+Videre i designet har William ansvaret for css og responsivt design. Han skal sørge for at siden er brukbar for brukere uansett hvilken skjermoppløsning de har.
+Kristoffer sørger for tilgjengelighet for nettsiden. Nettsiden må være tilpasset vår målgruppe og hva enn behov de kan ha. I tillegg må siden være tilgjengelig for smarttelefoner og nettbrett, og designet må tilpasse seg etter hvilken enhet brukeren har valgt.
+Dokumentering av arbeidet på nettsiden og prosessen fra start til slutt blir gjort av William. Han vil også sette opp en risikoplan over aktuelle risikoer som kan oppstå under prosjektet, som: sykdom, datatap og andre problemer.
+En viktig del av nettsiden er at den svarer til brukerens behov. Derfor er Even overhode over lokalisering av brukerens forskjellige behov og preferanser ved en slik nettside.
+Det juridiske blir tatt av Yuan. Misbruk av bilder/informasjon, plagiat og klager går under hennes ansvar og stilling.
 
-<table>
-  <tr align="left">
-    <th width="50%">1/, UI/nettside arkitektur/fonter/Skisser og prototype/bildet</th>
-    <th width="50%"></th>
-  </tr>
-  <tr align="left">
-  <th width="50%">2/, Slutt kontrol av rapporten(Men aller må skrive rapporten)</th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">3/, HTML validering</th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">4/, Javascript validering</th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">5/, css og responsivt design</th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">6/, Tilgjengligheten</th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">7/, Dokumentere og RisikoPlan</th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">
-8/, Intervijuet for å finne ut behov til brukere </th>
-    <th width="50%"></th>
-  </tr>
-    <tr align="left">
-  <th width="50%">9/. Juridiske hensynn(ikke misbruk bildet ogsånn)</th>
-    <th width="50%"></th>
-  </tr>
-</table>
 
 
 
 
 5. En milepælsplan over hva som skal være ferdig når 
 
-<table>
-  <tr align="left">
-    <th width="50%">1. 22 okt/ finne idé for hva vi skal lage </th>
-    <th width="50%"></th>
-  </tr>
-  <tr align="left">
-  <th width="50%">2. 30 okt/ forprosjektsrapporten)</th>
-    <th width="50%"></th>
-  </tr>
-</table>
+Vi ønsker å ha en prototype av nettsiden klar innen [dato]. For at dette skal bli mulig er det nødvendig at forsiden er nogen lunde ferdig [dato], og de andre sidene blir ferdiggjort med jevn fart etterpå.
+Det siste på agendaen er selve evalueringene av kebabrestauranter og deres kebab-produkter. Dette vil bli gjort i bakgrunn av alt det andre arbeidet. Evalueringene vil bli notert med det samme, men ikke implementert før de fleste funksjonene allerede er satt på plass.
+Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og brukbar innen [dato].
+
 
 En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.
 De verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
