@@ -80,12 +80,17 @@ Der er å merke ut hvem som skal ta hovedansvar for hva:
   </tr>
 </table>
 
-
-
-
 En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.
+De verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
+Css og Html,PHP,Mysql database,ta bilde med digital kamera,Papir prototyping,W3C Recommendation.
+Vi har valgt å bruke Css og Html,PHP,Bilde,Papir prototyping,W3C Recommendation. Database er fremdeles en teknologi vi er litt usikkert på.
 
+Beskrivelse av arbeidsmetoden dere har valgt:
+Vi har valgt å jobbe samlet hver mandag og tirsdag og noe onsdag. Det er c.a. 10 timer per uka for gruppearbeide.
+Det vil vi jobbe individuelt og bruke github til å dele kode. De kommuniseringsverktøyene som vi har benyttet oss av ved denne oppgaven er: 
+Penn og pair for å få frem idéen.
+Facebook 
 
+Vi startet så klart med brainstorming i forhold til hvordan og hva vi ville lage. Vi kom frem til at vi ville lage en nettside for kebab i Oslo for ungdom. Når vi var enige alle sammen, lagde vi en skisse over hva som kunne passet for denne brukergruppen. 
 
-Beskrivelse av arbeidsmetoden dere har valgt
 En beslutning om dere velger å bruke git/github, med begrunnelse.
