@@ -44,9 +44,8 @@ Det siste på agendaen er selve evalueringene av kebabrestauranter og deres keba
 Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og brukbar før 30. november, som tross alt er fristen for levering av den ferdige rapporten og nettsiden.
 
 
-<b>6. En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.</b>
-
-De verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
+<b>
+Verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
 <ul type="square"><li>Css og Html</li><li>PHP</li><li>Mysql database</li><li>Ta bilde med digital kamera</li><li>Papir prototyping</li><li>W3C Recommendation</li><li>Trello og Leankit
 </ul>
 Vi har valgt å bruke <ul type="square"> Css og Html</li><li>PHP</li><li>Bilde</li><li>Papir prototyping</li><li>W3C Recommendation. </ul>
