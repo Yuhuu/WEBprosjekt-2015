@@ -37,20 +37,19 @@ Det juridiske blir tatt av Yuan. Misbruk av bilder/informasjon, plagiat og klage
 
 
 
-
-5. En milepælsplan over hva som skal være ferdig når 
+5.En milepælsplan over hva som skal være ferdig når 
 
 Vi ønsker å ha en prototype av nettsiden klar innen [dato]. For at dette skal bli mulig er det nødvendig at forsiden er nogen lunde ferdig [dato], og de andre sidene blir ferdiggjort med jevn fart etterpå.
 Det siste på agendaen er selve evalueringene av kebabrestauranter og deres kebab-produkter. Dette vil bli gjort i bakgrunn av alt det andre arbeidet. Evalueringene vil bli notert med det samme, men ikke implementert før de fleste funksjonene allerede er satt på plass.
 Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og brukbar innen [dato].
 
 
-En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.
+6. En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.
 De verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
 Css og Html,PHP,Mysql database,ta bilde med digital kamera,Papir prototyping,W3C Recommendation.
 Vi har valgt å bruke Css og Html,PHP,Bilde,Papir prototyping,W3C Recommendation. Database er fremdeles en teknologi vi er litt usikkert på.
 
-Beskrivelse av arbeidsmetoden dere har valgt:
+7.Beskrivelse av arbeidsmetoden dere har valgt:
 Vi har valgt å jobbe samlet hver mandag og tirsdag og noe onsdag. Det er c.a. 10 timer per uka for gruppearbeide.
 Det vil vi jobbe individuelt og bruke github til å dele kode. De kommuniseringsverktøyene som vi har benyttet oss av ved denne oppgaven er: 
 Penn og pair for å få frem idéen.
@@ -58,4 +57,4 @@ Facebook
 
 Vi startet så klart med brainstorming i forhold til hvordan og hva vi ville lage. Vi kom frem til at vi ville lage en nettside for kebab i Oslo for ungdom. Når vi var enige alle sammen, lagde vi en skisse over hva som kunne passet for denne brukergruppen. 
 
-En beslutning om dere velger å bruke git/github, med begrunnelse.
+8. En beslutning om dere velger å bruke git/github, med begrunnelse.
