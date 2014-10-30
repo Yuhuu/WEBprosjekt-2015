@@ -47,9 +47,11 @@ Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og 
 <b>6. En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.</b>
 
 De verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
-Css og Html,PHP,Mysql database,ta bilde med digital kamera,Papir prototyping,W3C Recommendation,Trello og Leankit
-Vi har valgt å bruke Css og Html,PHP,Bilde,Papir prototyping,W3C Recommendation. 
+<ul type="square"><li>Css og Html</li><li>PHP</li><li>Mysql database</li><li>Ta bilde med digital kamera</li><li>Papir prototyping</li><li>W3C Recommendation</li><li>Trello og Leankit
+</ul>
+Vi har valgt å bruke <ul type="square"> Css og Html</li><li>PHP</li><li>Bilde</li><li>Papir prototyping</li><li>W3C Recommendation. </ul>
 Database er fremdeles en teknologi vi er litt usikkert på. Vi bruker PHP for å lage dynamiske og interaktive webside. . Vi vurderer også å bruke Scrum verktøy som LeanKit. Ved å bruke Leankit så har vi mulig å få ser prioritert liste med hva som skal med i neste runde. Det er også lettere for oss å ha en oversikt av hvike oppgaver en har.
+
 
 <b>7.Beskrivelse av arbeidsmetoden dere har valgt:</b>
 
