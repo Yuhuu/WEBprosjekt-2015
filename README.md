@@ -7,20 +7,20 @@ Denne mappen er for å dele fil samt å beholden historikk!
 <h3>Noe krav om først del av rapporten:</h3>
 
 
-1. Dere skal lage en plan for arbeidet som skal legges ut på gruppens hjemmeområde, under /forprosjekt.html og leveres her.
-Planen skal inneholde:
+<b>1. Dere skal lage en plan for arbeidet som skal legges ut på gruppens hjemmeområde, under /forprosjekt.html og leveres her.
+Planen skal inneholde:</b>
 
-2. En enkel, uformell beskrivelse av alle "use cases", altså en liste over alle ting brukeren kan gjøre
-
-
-3. Prototype av grensesnittet (Skisser går greit)
+<b>2. En enkel, uformell beskrivelse av alle "use cases", altså en liste over alle ting brukeren kan gjøre</b>
 
 
+<b>3. Prototype av grensesnittet (Skisser går greit)</b>
 
-4. Fordeling av arbeidsoppgaver - hvem skal gjøre hva
 
-Vi treffes og arbeide stor sett samme så oppgaver fordeling er kanskje ikke så lett å finne grensen.
-Men for å sikre en bedre samarbeide jeg har et forslag slik som å dele oppgaver med egne interesser. 
+
+<b>4. Fordeling av arbeidsoppgaver - hvem skal gjøre hva</b>
+
+Vi treffes og arbeider stor sett det samme så oppgavefordeling blir kanskje ikke så lett.
+Men for å sikre et bedre samarbeid har jeg et forslag om å dele ut oppgaver til de med lignende interesser. 
 Der er å merke ut hvem som skal ta hovedansvar for hva:
 
 Vi valgte å fordele arbeidsoppgaver etter den personens sterkeste ferdigheter som er relevant til prosjektet. Ettersom alle i gruppa har kunnskaper om HTML og CSS, etter timene med Webprosjekt, har alle muligheter til å delta i selve kodingen av siden.
@@ -37,19 +37,21 @@ Det juridiske blir tatt av Yuan. Misbruk av bilder/informasjon, plagiat og klage
 
 
 
-5.En milepælsplan over hva som skal være ferdig når 
+<b>5.En milepælsplan over hva som skal være ferdig når </b>
 
-Vi ønsker å ha en prototype av nettsiden klar innen [dato]. For at dette skal bli mulig er det nødvendig at forsiden er nogen lunde ferdig [dato], og de andre sidene blir ferdiggjort med jevn fart etterpå.
+Vi ønsker å ha en prototype av nettsiden klar innen 20. november. For at dette skal bli mulig er det nødvendig at forsiden er nogen lunde ferdig 10. november, og de andre sidene blir ferdiggjort med jevn fart deretter. Naturligvis vil det også legges til litt og litt på siden.
 Det siste på agendaen er selve evalueringene av kebabrestauranter og deres kebab-produkter. Dette vil bli gjort i bakgrunn av alt det andre arbeidet. Evalueringene vil bli notert med det samme, men ikke implementert før de fleste funksjonene allerede er satt på plass.
-Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og brukbar innen [dato].
+Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og brukbar før 30. november, som tross alt er fristen for levering av den ferdige rapporten og nettsiden.
 
 
-6. En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.
+<b>6. En liste over hvilke teknologier dere har vurdert å bruke og hvilke dere faktisk har valgt å bruke og begrunnelse for valgene.</b>
+
 De verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
 Css og Html,PHP,Mysql database,ta bilde med digital kamera,Papir prototyping,W3C Recommendation.
 Vi har valgt å bruke Css og Html,PHP,Bilde,Papir prototyping,W3C Recommendation. Database er fremdeles en teknologi vi er litt usikkert på.
 
-7.Beskrivelse av arbeidsmetoden dere har valgt:
+<b>7.Beskrivelse av arbeidsmetoden dere har valgt:</b>
+
 Vi har valgt å jobbe samlet hver mandag og tirsdag og noe onsdag. Det er c.a. 10 timer per uka for gruppearbeide.
 Det vil vi jobbe individuelt og bruke github til å dele kode. De kommuniseringsverktøyene som vi har benyttet oss av ved denne oppgaven er: 
 Penn og pair for å få frem idéen.
@@ -57,4 +59,23 @@ Facebook
 
 Vi startet så klart med brainstorming i forhold til hvordan og hva vi ville lage. Vi kom frem til at vi ville lage en nettside for kebab i Oslo for ungdom. Når vi var enige alle sammen, lagde vi en skisse over hva som kunne passet for denne brukergruppen. 
 
-8. En beslutning om dere velger å bruke git/github, med begrunnelse.
+Vi har bestemt oss for å anvende teknikken Kanban til dette prosjektarbeidet, siden det er et simpelt system som man lett får oversikt med. Det går ut på at man setter opp lapper i kolonner med nummer ovenfor. Hver lapp representerer en prosess i arbeidet. Ovenfor hver kolonne skriver vi inn et tall på maksantallet lapper som får sitte under kategorien som leder til at alt blir gjort. 
+
+Metoden gir en klar oversikt hvor man ligger i tidsplanen og, til forskjell fra andre liknende teknikker, så forhindrer den at det blir en flaskehals noe sted ved å begrense hvor mye som er i arbeidet på hvert steg.
+
+Kanban har utviklet en app for mobiltelefonen, noe som gjør det lettere for oss å holde oss oppdatert og bære med oss arbeidet rundt. 
+
+For å lykkes med prosjektarbeidet er vi alla enige om at god kommunikasjon er en viktig andel. Derfor har vi laget en Facebook-gruppe til arbeidsgruppa, fordi det er en hendig måte å informere hverandre om tider for oppmøte og dele viktige hendelser raskt. 
+
+Vi har også besluttet å innføre obligatoriske gruppemøter på webprosjekt på mandager og onsdager. Vi er forberedt på at det kan ta mer tid og flere møter utover dette for å oppnå ett godt resultat. For dette har vi tenkt å ta i bruk Google Hangouts, som gjør det mulig å ha møter hjemmefra og ikke behøve å dra inn til skolen hver gang det er noe. Deretter skal vi sette opp en delt dropbox så vi lett kan dele PDF-filer mellom oss.  
+
+Sluttrapporten skriver vi i Google docs. Det gjør at vi alle kan arbeide med samme dokument samtidig. For å lette arbeidet med sluttrapporten skriver vi notater regelmessig i Github.
+
+
+<b>8. En beslutning om dere velger å bruke git/github, med begrunnelse.</b>
+
+Vi har valgt å bruke Github fordi det er et godt alternativ for større prosjekter der flere personer kan arbeide med samme kode. Vi tror også det vil lettere gi oss mulighet for å dele filene, så flere personer kan arbeide på samme kode uten å overskride hverandres fremgang. 
+
+Github gir oss muligheten til å lagre forandringene som blir gjort og gå tilbake i historikken om det skulle behøves. Det forhindrer også at deler av prosjektet går tapt skulle en eventuell datakrasj ta sted. Det er også meget hendig om noen skulle bli syke eller bli borte, så kan arbeidet likevel fortsette.
+
+Men viktigst av alt så får vi mulighet til å strukturere opp arbeidet bedre gjennom muligheten for å kunne dele «To do»-lister og informasjon effektivt.
