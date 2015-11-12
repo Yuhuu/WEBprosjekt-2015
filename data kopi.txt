@@ -1,0 +1,339 @@
+Group assignment for universell utforming
+
+Yuanxin Huang s184519@hioa.stud.no	
+Mathias Knudsen Sollie
+		
+			
+Comparison of Mouse and Keyboard Efficiency				
+1.Problem statement
+
+We're looking to find which method is most efficient and most user friendly regarding the time consuming for changing the line spacing in Word. Short cut keys allows the user to keep their hands on the keyboard, almost never touching the mouse. Although shortcut keys can help reduce the amount of times you have moved from the keyboard to the mouse, it takes time for users to recall command keys.
+
+The time spending on changing line spacing is of great interest. In this study, two methods of issuing commands were compared: 1) selecting a menu item with a keyboard shortcut (Menu-Keyboard condition); and 2) selecting a toolbar item with a mouse (Toolbar-Mouse condition). In our single-blinded, within-subjects design, each participant is tested under all conditions, therefore, fewer participants are needed. In the present experiment, effectiveness will be measured by recording time consumed, and the user satisfaction can be measured by usability questionnaires. 
+
+Problem: Whether keyboard command is more effective than using mouse in terms of adjusting line spacing?
+Whether users are more satisfied when using keyboard than using mouse in terms of adjusting line spacing?
+
+2. Hypotheses
+H0:Time consuming for using keyboard can be shorter than using mouse;
+H1:Time consuming for using keyboard can be longer than using mouse ;
+
+H0: User satisfaction can be the higher for using mouse than keyboard ;
+H1: User satisfaction can be the lower for using mouse than keyboard ;
+
+
+
+
+3.Users/Respondents/Participants		
+- Participants should have similar ability for using Microsoft word 2013 
+- Windows system
+- Participants: 18-67
+
+For this particular study, we're interested in participants from the age of 18 til 67. We chose this range of age based on a working life from the age of adulthood, 18, until the age of retirement at 67. The younger generation is considered more technologically advanced than the older, and may often be more suitable for technology relevant experiments. But when it comes to Microsoft Word, it's a software that's very much used in the workspace, and many of the adults either uses it in their workday or have used it since their student days. Therefore, we chose to not exclude the adult and older generations, since they have many users that are relevant for this experiment. The participants were also required to have some knowledge and experience with using Word. It was also important that the knowledge and experience were, of some sort, equal between the different participants. This was to make sure that none of the participants had any advantages or/and were better suited for the experiment than other participants. This was also why the last requirement set to the participants was that their experience with Word was on a Windows computer. There are different hotkeys in the program regarding which operating system it's on, so we choose to focus the tests on a Windows computer. 
+
+4.Design
+For the design of the experiment, we will use the “Within User” experiment design. With the “Within User” designed experiment, one has two different treatments for the participants. Once the participants have gone through both the treatments, not only can you compare the participants to each other based on the results from a single treatment, but one can also compare a participant to himself based on the results from the two treatments (since each subject receives all treatments, the effects due to individual differences between subjects can be removed). The focus of this experiment is to compare the participant to himself, and see difference between the treatments. 
+Afterwards, they completed rating scales of usability features.
+
+
+5.Variables
+Within subject experimental design is a new form of design for exploring cause-effect relationships between manipulated independent variables ( features of tasks or treatments) and dependent variables (measures of time). 
+Dependent variables:
+1.Time
+2.Satisfaction levels for preference
+Independent variables:
+2 levels: using mouse / keyboard
+4 tasks per level:  different tasks
+Dependent measurements:
+Time for performance.
+Satisfaction level: Questionnaires
+
+
+
+
+6. Materials and Apparatus
+A silent locale
+Table
+Chair
+Computer with Windows and Microsoft Word 2010
+Mouse
+Keyboard
+Timer
+Questionnaire forms
+
+By combining systematically each treatment and  task level, eight combinations were designed. 
+The individual tasks:
+	1. Change the line spacing from single to 1.5 for the first paragraph.
+	2. Change the line spacing from single to custom spacing for the first paragraph.
+	3. Change the line spacing from single to 1.5 for whole article.
+	4. Change the line spacing from single to custom spacing for whole article.
+
+
+
+7.Procedure(yuan)
+
+ Simple Key Versus Mouse-Based Toolbar Selection 
+Selection by Keyboard 
+Selection by Mouse 
+1. Recall command key 
+2.Shift+Ctrl+Up or Down Arrow Keys Select paragraphs
+3. Recall command key 
+4.adjust line spacing(Ctrl+5 for 1.5 line spacing)
+
+
+1.Select the area where you want to adjust the line space
+2.Look for menu 
+3.Point to menu under paragraph
+4. select adjust line spacing
+
+
+ A Dell XPS 13 laptop with a 13.3-inch screen and a resolution of 1280*800, with mouse input, as well as a Logitech basic optical mouse should be used. “ Interval Timer Pro”  was used in order to acquire time data from the trials.
+
+Our experiment will consist of two different treatments, one where the participant will have to use hotkeys, and one where the participant will have to use tab-based menus. Each treatment will consist of a series of four tasks. [Explain why->The task will come in random order, and will be presented one at a time.] The reason they will come in random order, is to not have a specific pattern for the tasks to be presented. Especially when they come back for the second treatment, is it important that the they draw as little as possible knowledge about the treatment and the surroundings from their first treatment, since this can affect the performance and result. Therefore, we choose to present the tasks without any pattern, so the participants can't use that knowledge from the first treatment.
+ Once a task is completed, a new one will be given. We will time each individual task. The participants will be tested one at the time, [explain procedure ->in a room where they are alone. ] The participants will be tested one at the time, and will be given a room alone where the test will be conducted. They will be accompanied by an observer which job is to present, explain and time the different tasks. The timing starts from when the participant agrees that he/her understands the task, until they say they're done, and the observer will see if he/she agrees. If not, the observer will tell the participant he/she does not agree and resume the timing. Once the participant is done with a treatment, the participant will have to fill out a questionnaire asking about the user-friendliness of their recent treatment. After that they get a break, so that when they start the second treatment, they won't come “fresh” from the first treatment. After the break they'll have to do the second treatment, and fill out an identical questionnaire asking for the user-friendliness. After the second treatment and questionnaire, they're done.
+
+Instructions were given before the subjects started the task. 
+
+8 Recruitment questionnaire  
+9 Post-experiment questionnaire(Yuan)
+Participants were asked about their attitude towards the experiment after they completing these 8 tasks. They were asked to answer the questionnaire for both mouse and keyboard.
+
+
+
+
+
+
+
+
+
+
+
+
+Questionnaire:
+
+The following part consists of questions regarding your experience with the tasks. Read each question and indicate your answer in a scale from 1 to 7.
+
+1.How easy/difficult was to finish the task you were assigned?
+
+extremely Easy 
+
+
+
+
+
+
+
+
+
+
+ extremely Difficult
+1
+2
+3
+4
+5
+6
+7
+
+
+
+2. To what extent did you feel stressed? 
+
+very little
+
+
+
+
+
+
+
+
+
+
+ very much
+1
+2
+3
+4
+5
+6
+7
+
+3. How much did you like this?
+
+
+very little
+
+
+
+
+
+
+
+
+
+
+ very much
+1
+2
+3
+4
+5
+6
+7
+
+4. How satisfied were you?
+
+
+very little
+
+
+
+
+
+
+
+
+
+
+ very much
+1
+2
+3
+4
+5
+6
+7
+
+10.Observation protocol(Yuan)
+The participants were informed that the aim of the study was to find out user experience for microsoft Word. They were instructed to both keyboard input and mouse click as well as the rating of expected liking of these method. 
+
+
+
+
+
+
+
+Participant questionnaire
+Name
+
+
+Gender
+
+
+Age
+
+
+Job title
+
+
+Problems with eyesight, hearing or anything else which might affect the test results?
+
+
+
+How many days a week do you use Microsoft Word?
+Less than once
+
+
+
+
+
+
+
+
+
+
+Each day
+<1
+1
+2
+3
+4
+5
+6-7
+
+How many years have you been using Microsoft Word?
+Less than one
+
+
+
+
+
+
+
+
+
+
+Many
+<1
+1-2
+2-3
+3-4
+4-5
+5-6
+>6
+
+How skilled would you consider yourself in Microsoft Word?
+Beginner
+
+
+
+
+
+
+
+
+
+
+Expert
+1
+2
+3
+4
+5
+6
+7
+
+Do you use mostly hotkeys or mouse to perform different tasks in Microsoft Word?
+Hotkeys
+Mouse
+
+Which OS do you use the most?
+Windows OS
+Mac OS
+
+
+
+
+
+
+
+During observation, the observer should not give any instructions or hints to users. 
+Also the subjects were encouraged to use a think-aloud method to describe the internal representation process including the users questioning themselves, frustrations, trying to find information to help them finish the task.
+The participants rated with a mouse the user satisfaction induced by each treatment using a 7- category scale presented on the computer monitor. The overall liking scale was labeled from left to right extremities with for example: “Extremely Easy” (left) and “extremely difficult“ (right). The presentation design was randomized in order to balance the position and the order across participants.
+
+Dated log book:
+						
+Dato
+Task
+17 Sep 2015
+Introduction of problem
+
+
+02 Oct 2015
+Started discussing and planning the experiment and task.
+
+
+9 Oct 2015
+Mathias: 3, 4, 6 Yuanxin:5, 7, 9
+16 Oct 2015
+Discuss about the details of Materials and Apparatus
+Mathias 8  Yuan:10
+23 Oct 2015
+Discussion further about details
+6 Nov 2015
+Discuss and get a plan for next meeting via Facebook
+13 Nov 2015
+
+
+
