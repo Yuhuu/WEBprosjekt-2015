@@ -7,7 +7,7 @@
 <title></title>
 </head>
 <body>
-		<h1>dette er en test: vwxyz 1234567890 ¡@£$½¥{[]}!"##¤%&/()=?</h1>
+		<h1>dette er en test: vwxyz 1234567890</h1>
 <?php
 echo "billet";
 ?>
