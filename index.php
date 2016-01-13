@@ -14,7 +14,7 @@
 echo "Motovorgn";
 ?>
 <?php
-		$db = new mysqli("student.cs.hioa.no", "s184519",null,"s184519");
+		/*$db = new mysqli("student.cs.hioa.no", "s184519",null,"s184519");
 		$iUser = NULL;
 		$iMessage = NULL;
 		if($db->connect_errno > 0){
@@ -22,7 +22,7 @@ echo "Motovorgn";
 		}
 		$sql = "SELECT * FROM Forum";
 		if(!$result = $db->query($sql)){
-			die('You done wrong [' . $db->error . ']');
+			//die('You done wrong [' . $db->error . ']');
 		}	
 		echo "<table border='1'>";
 		while($row = $result->fetch_assoc()){
@@ -59,12 +59,11 @@ echo "Motovorgn";
 			mysqli_query($db, "INSERT INTO `s184519`.`Forum` (`ID`, `User`,'Title','msg','pic','time') VALUES (NULL,'$iUser','$iTitle', '$iMessage', '$iPic','NULL')");
 		}
 		echo mysqli_error($db);
-		$db->close();
-	?>
-	<div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
+		$db->close();*/
+	
+	echo '<div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
       <input class="hidden" type="checkbox" ng-model="viewEditPost" />
       <a href="#" class="submitButton" ng-click="viewEditPost=!viewEditPost">+</a>
-      <article ng-show="viewEditPost">
 	<form class="postForm" ng-submit="newPost(this);viewEditPost=!viewEditPost">
 	  <input class="inputTitle" type="text" name="title" ng-model="title" placeholder="tittel" /><br />
 	  <textarea class="inputContent" name="content" ng-model="content" placeholder="innhold"></textarea><br />
@@ -86,6 +85,8 @@ echo "Motovorgn";
 	    <button class="submitButton" ng-click="post.edit=!post.edit">Angre</button> <!-- translations -->
 	    <input class="inputPsw" placeholder="passord" type="password" name="something" ng-model="psw" />
 	  </form>
+	  <div>'
+?>
 </body>
 </html>
 
