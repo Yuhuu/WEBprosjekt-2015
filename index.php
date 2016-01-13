@@ -4,12 +4,14 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="angular-1.0.1.min.js"></script>
 <title></title>
 </head>
 <body>
-		<h1>dette er en test: vwxyz 1234567890</h1>
+		<h1>Database og XML,angular</h1>
 <?php
-echo "billet";
+echo "Motovorgn";
 ?>
 <?php
 		$db = new mysqli("student.cs.hioa.no", "s184519",null,"s184519");
@@ -59,6 +61,34 @@ echo "billet";
 		echo mysqli_error($db);
 		$db->close();
 	?>
-
+	<div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
+      <input class="hidden" type="checkbox" ng-model="viewEditPost" />
+      <a href="#" class="submitButton" ng-click="viewEditPost=!viewEditPost">+</a>
+      <article ng-show="viewEditPost">
+	<form class="postForm" ng-submit="newPost(this);viewEditPost=!viewEditPost">
+	  <input class="inputTitle" type="text" name="title" ng-model="title" placeholder="tittel" /><br />
+	  <textarea class="inputContent" name="content" ng-model="content" placeholder="innhold"></textarea><br />
+	  <input class="inputPsw" type="password" name="psw" ng-model="psw" placeholder="passord" />
+	  <button class="submitButton" type="submit">Legg til post</button>  <!-- translations -->
+	  <button class="submitButton" ng-click="$scope.viewEditPost=false">angre</button>  <!-- translations -->
+	</form>
+</form>
+      <!--</article><!-- the big divide between the header and the content with edit --->
+      <div ng-repeat="post in posts">
+	<article>
+	  <input class="hidden" type="checkbox" ng-model="post.edit" />
+	  <h2 ng-click="post.edit=!post.edit" ng-show="!post.edit">{{post.title}}</h2>
+	  <p ng-show="!post.edit">{{post.content}}</p>
+	  <form class="postForm" ng-show="post.edit" ng-submit="updatePost(post,this);post.edit=!post.edit">
+	    <input class="inputTitle" type="text" name="newPostTitle" ng-model="post.title" placeholder="tittel" /><br />
+	    <textarea class="inputContent" name="newPostContent" ng-model="post.content" placeholder="innhold"></textarea><br />
+	    <button class="submitButton" type="submit">Endre post</button> <!-- translations -->
+	    <button class="submitButton" ng-click="post.edit=!post.edit">Angre</button> <!-- translations -->
+	    <input class="inputPsw" placeholder="passord" type="password" name="something" ng-model="psw" />
+	  </form>
 </body>
 </html>
+
+
+
+
