@@ -1,43 +1,30 @@
-Wwebprosjekt
-_____________________________
+
 =========
-Denne mappen er for å dele fil samt å beholden historikk!
+
+<h3>============ Introduction ============</h3>
+
+<b>This is a website created by me and my friends. The name of it is "Family & Friends to Plan"</b>
+<b>1. Simplifying registration process</b>
+
+<b>2. All can be members. All member can add profile image and write an about me introduction</b>
 
 
-<h3>Noe krav om først del av rapporten:</h3>
+<b>3. Admin of website can see all the users profiles.</b>
 
+<b>4. Individual can drop and add friends and see their friends list - hvem skal gjøre hva</b>
 
-<b>1. Dere skal lage en plan for arbeidet som skal legges ut på gruppens hjemmeområde, under /forprosjekt.html og leveres her.
-Planen skal inneholde:</b>
+<b>5. When they are friend they can plan which day to do what. and this planning will be list in a prioritize list </b>
 
-<b>2. En enkel, uformell beskrivelse av alle "use cases", altså en liste over alle ting brukeren kan gjøre</b>
+<b>6. This prioritize list can be changed by drag and drop</b>
 
-
-<b>3. Prototype av grensesnittet (Skisser går greit)</b>
-
-<b>4. Fordeling av arbeidsoppgaver - hvem skal gjøre hva</b>
-
-<b>5.En milepælsplan over hva som skal være ferdig når </b>
-
-Det er vårt mål at hele nettsiden, med funksjoner og evalueringer, er oppe og brukbar før 30. november, som tross alt er fristen for levering av den ferdige rapporten og nettsiden.
-
-<b>
-Verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:
-<li>W3C Recommendation</li><li>Trello og Leankit</li><li>WAVE</li>
+<h3>
+Verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:</h3>
+<ul><li>jQuery</li><li>Trello </li><li>WAVE</li><li>PHP</li>
 </ul>
 
- Vi bruker PHP for å lage dynamiske og interaktive webside . Vi vurderer også å bruke verktøy som trello og LeanKit. Ved å bruke Leankit så har vi mulig å få ser prioritert liste med hva som skal med i neste runde. Det er også lettere for oss å ha en oversikt av hvike oppgaver en har.
-
-
-<b>7.Beskrivelse av arbeidsmetoden dere har valgt:</b>
-
+<h3>============Beskrivelse av arbeidsmetoden dere har valgt============</h3>
 Vi har valgt å jobbe samlet hver mandag og tirsdag og noe onsdag. Det er c.a. 15 timer per uka for gruppearbeide.
 Det vil vi jobbe individuelt og bruke github til å dele kode. 
 
-Vi kom frem til at vi ville lage en nettside for kebab i Oslo for ungdom. Når vi var enige alle sammen, lagde vi en skisse over hva som kunne passet for denne brukergruppen. 
+Vi kom frem til at vi ville lage en nettside for aktivitetsplann til venner,særlig for ungdom. Når vi var enige alle sammen, lagde vi en skisse over hva som kunne passet for denne brukergruppen. 
 
-
-
-<b>8. En beslutning om dere velger å bruke git/github, med begrunnelse.</b>
-
-Vi har valgt å bruke Github fordi det er et godt alternativ for større prosjekter der flere personer kan arbeide med samme kode. 
