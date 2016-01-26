@@ -1,5 +1,5 @@
- <div class="container" id ="panel" >
- <form class="form-inline" role="form">
+ <div class="container">
+ <form id ="panel" class="form-inline" role="form">
     <div class="input-group">
       <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
       <input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -10,5 +10,5 @@
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
-</div>
+
   	 
