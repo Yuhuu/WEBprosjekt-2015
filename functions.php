@@ -12,10 +12,17 @@
     
     function queryMysql($query){
        global $connection;
-       $result = $connection->query($query);
+       $result = mysqli_query($connection, $query);
        if(!$result) die('failed to connect ['.$connection->connect_error.']');
        return $result;
     }
+    function destroySession() {
+        $_SESSION=array();
+        
+        // -259200 or not
+        if(session_id() != "" || isset($_COOKIE[session_name()]))
+            setcookie(session_name(),'',time()-259200, '/'); // 86400 is one day
+}
     
     // avoid SQL injection
     function sanitizeString($var){
@@ -23,20 +30,21 @@
         $var = strip_tags($var);
         $var = htmlentities($var);
         $var = stripslashes($var);
-        return $connection->real_escape_string($var);
+        return mysqli_real_escape_string($connection, $var);
   }
 
+  // can upload picture for aktivities
   function showProfile($user)
   {
     if (file_exists("$user.jpg"))
-      echo "<img src='$user.jpg' style='float:left;'>";
+      echo "<img src='images/$user.jpg' style='float:left;'>";
 
     $result = queryMysql("SELECT * FROM profiles WHERE user='$user'");
 
     if ($result->num_rows)
     {
       $row = $result->fetch_array(MYSQLI_ASSOC);
-      echo stripslashes($row['text']) . "<br style='clear:left;'><br>";
+      echo stripslashes($row['text']) . "<br style='clear:left;'>";
     }
   }
     //$db->close();

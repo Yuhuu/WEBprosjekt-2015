@@ -1,11 +1,12 @@
+<?php
+session_start();
+require_once 'functions.php';
+?>
 <!DOCTYPE HTML>
-
 <html lang="no">
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="angular-1.0.1.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -22,7 +23,6 @@ $(document).ready(function(){
 });
 </script>
 <body>
-
 <nav class="navbar-custom navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -36,14 +36,17 @@ $(document).ready(function(){
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#section1">Chinese</a></li>
+          <li><a href="#section1">Norsk</a></li>
           <li><a href="#section2">section2</a></li>
           <li><a href="#section3">section3</a></li>
           <li><a href="#section3">section4</a></li>
         </ul>
       	<ul class="nav navbar-nav navbar-right">
-        <li><a href="#" id ="flip" ><i class="fa fa-user"></i><i class="fa fa-list"></i>
-Min side</a></li>
+        <li><a href="#" id ="flip" ><i class="fa fa-user"></i>&nbsp<i class="fa fa-list"></i>
+<?php
+include "user.php";
+?>
+            </a></li>
       	</ul>
     </div>
   </div>
@@ -52,54 +55,6 @@ Min side</a></li>
 <?php
 include "login.php";
 ?>
-<!-- ?php
-		$db = new mysqli("student.cs.hioa.no", "s184519",null,"s184519");
-		$iUser = NULL;
-		$iMessage = NULL;
-		if($db->connect_errno > 0){
-			die('failed to connect [' . $db->connect_error . ']');
-		}
-		$sql = "SELECT * FROM Forum";
-		if(!$result = $db->query($sql)){
-			//die('You done wrong [' . $db->error . ']');
-		}	
-		echo "<table border='1'>";
-		while($row = $result->fetch_assoc()){
-			echo "<tr><td>" . $row['User'] . "</td><td>" . $row['Title'].
-			"</td><td>" . $row['msg']. "</td><td>" . $row['pic']."</td><td>" . $row['time'] . "</td></tr>";
-		}
-		echo "<p>Enter here:</p>";
-		echo "<form action='database.php' method='post'>
-			<tr><td>
-			User: <input type='text' name='user'>
-			</td>
-			<td>
-			title: <input type='text' name='title'>
-			</td>
-			<td>
-			<p>your Picture:</p> <input type='text' name='pic'>
-			</td>
-			<td>
-			Message:<br />
-			<input type='text' name='message'><br />
-			<input type='submit'>
-			</td></tr>
-			</form>";
-		echo "</table>";
-		if($_POST['user'] != NULL)
-		{
-			$iUser = mysqli_real_escape_string($db, $_POST['user']);
-			$iMessage = mysqli_real_escape_string($db, $_POST['message']);
-			$iTitle = mysqli_real_escape_string($db, $_POST['title']);
-			$iPic = mysqli_real_escape_string($db, $_POST['pic']);
-		}
-		if($iUser != NULL && $iMessage != NULL)
-		{
-			mysqli_query($db, "INSERT INTO `s184519`.`Forum` (`ID`, `User`,'Title','msg','pic','time') VALUES (NULL,'$iUser','$iTitle', '$iMessage', '$iPic','NULL')");
-		}
-		echo mysqli_error($db);
-		$db->close();
-	?> -->
 	<div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
       <input class="hidden" type="checkbox" ng-model="viewEditPost" />
       <a href="#" class="submitButton" ng-click="viewEditPost=!viewEditPost"></a>
