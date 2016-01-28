@@ -1,6 +1,6 @@
 
 <?php
-    $connection = new mysqli("localhost", "root", null, "s184519");
+    $connection = new mysqli("localhost", "root", null, "friendsPlan");
     if ($connection->connect_errno){
        die('failed to connect ['.$connection->connect_error.']');
     }
@@ -47,6 +47,8 @@
       echo stripslashes($row['text']) . "<br style='clear:left;'>";
     }
   }
+  
+  
     //$db->close();
 ?> 
 
