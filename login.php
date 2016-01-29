@@ -1,33 +1,57 @@
- <div class="container" ng-app="myApp" ng-controller="myCtrl">
-<script>
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-    $scope.doSubmit = "Your Email address";
-});
-</script>
- <form id ="panel" class="form-inline" role="form" name="myForm" ng-submit="doSubmit" vmsgs-form>
+<!--http://tutsnare.com/post-form-data-using-angularjs/-->
+<div class="container">
+    
+    <form class="form-inline" name="registerForm" ng-submit="doSubmit()" vmsgs-form>
     <div class="input-group">
       <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
       <input type="email"
              name = "myEmail"
-             ng-model="myEmail"
-             ng-minlength ="10"
-             required 
              vmsg
+             ng-model="user.myEmail"
+             ng-minlength ="10"
              class="form-control" 
-             id="email" 
-             placeholder="Enter email" />
+             placeholder="{{errorUserName}}" />
+      
+      
     </div>
     <div class="input-group">
       <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
       <input type="password" 
-             required 
+             name = "myPassword"
              vmsg
+             ng-model="user.myPassword"
              class="form-control" 
-             id="pwd" 
-             placeholder="Password"/>
+             placeholder="{{errorPassword}}"/>
+<!--      <span ng-show="errorPassword">{{errorPassword}}</span>-->
     </div>
-    <button ng-click="myEmail=''" class="btn btn-default">Clear</button>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button data-ng-click="user.myEmail=''; user.myPassword=''" class="btn btn-default">Clear</button>
+    <button type="submit" class="btn btn-default">Registe</button>
   </form>
- </div>
+</div>
+<script>
+    // Defining angularjs application.
+var postApp = angular.module('myApp', []);
+postApp.controller('myCtrl', function($scope, $http) {
+    // create a blank object to handle form data.
+    $scope.user = {};
+    // calling our submit function.
+    $scope.doSubmit = function(){
+            $http({
+            method: 'POST',
+            url: 'insert.php',
+            data: $scope.user,
+            headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+         })
+        .success(function(data){
+            if (data.errors) {
+              // Showing errors.
+              $scope.errorUserName = data.errors.myEmail;
+              $scope.errorPassword = data.errors.myPassword;
+            } else {
+            $scope.message = data.message;
+            console.log("inserted Successfully");
+            }
+        });
+    };
+ });
+</script>

@@ -1,24 +1,29 @@
-<?php
 
+<?php
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+function checkUser(){
 session_start();
-$destroySession = destroySession();
+global $user;
+//$destroySession = destroySession();
 $userstr = "Guest";
-$_SESSION["user"] = "Yuanxin";
+//$_SESSION["user"] = "Yuanxin";
 if (isset($_SESSION['user']))
   {
     $user     = $_SESSION['user'];
-    $loggedin = TRUE;
     $userstr  = "$user";
+    return TRUE;
   }
-  else $loggedin = FALSE;
-  
-if ($loggedin)
+  else return FALSE;
+}
+
+if(checkUser())
   {
+    global $user;
     echo "Welcome, $user !</a></li>"  .     
          "<li><a href='logout.php'>Log out</a></li>";
     echo "<li><a href='members.php?view=$user'>Home</a></li>" .       
@@ -26,6 +31,6 @@ if ($loggedin)
   }
     else {
         echo "Sign up</a></li>"            .
-          "<li><a href='login.php'>Log in";
-       }
+          "<li><a href=''>Log in";
+    }
 ?>

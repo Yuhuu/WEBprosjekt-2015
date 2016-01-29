@@ -17,7 +17,7 @@ include "login.php";
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-        <li><a href="#" id ="flip" ><i class="fa fa-user"></i>&nbsp<i class="fa fa-list"></i>
+        <li><a href="" id ="flip" ><i class="fa fa-user"></i>&nbsp<i class="fa fa-list"></i>
         <?php
         include "userProfile.php";
         ?>
@@ -33,9 +33,7 @@ include "login.php";
     </div>
   </div>
 </nav>
-
-
-	<div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
+      <div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
       <input class="hidden" type="checkbox" ng-model="viewEditPost" />
       <a href="#" class="submitButton" ng-click="viewEditPost=!viewEditPost"></a>
 	<form class="postForm" ng-submit="newPost(this);viewEditPost=!viewEditPost">
@@ -47,15 +45,15 @@ include "login.php";
 	</form>
 	</div>
     
-    <div ng-repeat="post in posts">
-	  <input class="hidden" type="checkbox" ng-model="post.edit" />
-	  <h2 ng-click="post.edit=!post.edit" ng-show="!post.edit">{{post.title}}</h2>
-	  <p ng-show="!post.edit">{{post.content}}</p>
-	  <form class="postForm" ng-show="post.edit" ng-submit="updatePost(post,this);post.edit=!post.edit">
+    <div ng-repeat="post in plans">
+	  <input class="hidden" type="checkbox" ng-model="post.recip" />
+	  <h2 ng-click="post.recip=!post.recip" ng-show="!post.recip">{{post.auth}}</h2>
+	  <p ng-show="!post.recip">{{post.message}}</p>
+	  <form class="postForm" ng-show="post.recip" ng-submit="updatePost(post,this);post.recip=!post.recip">
 	    <input class="inputTitle" type="text" name="newPostTitle" ng-model="post.title" placeholder="tittel" /><br />
 	    <textarea class="inputContent" name="newPostContent" ng-model="post.content" placeholder="innhold"></textarea><br />
 	    <button class="submitButton" type="submit">Endre post</button> 
-	    <button class="submitButton" ng-click="post.edit=!post.edit">Angre</button> 
+	    <button class="submitButton" ng-click="post.recip=!post.recip">Angre</button> 
 	    <input class="inputPsw" placeholder="passord" type="password" name="something" ng-model="psw" />
 	  </form>
 	 </div>
