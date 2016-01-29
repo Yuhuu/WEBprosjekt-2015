@@ -19,7 +19,7 @@ Additional function:
 <b>7. This list can view by date in a calendar</b>
 <h3>
 Verktøyene og teknologiene som vi har vurdert å bruke ved denne oppgaven er:</h3>
-<ul><li>Angualr</li><li>Trello</li><li>WAVE for userbility check</li><li>ReSTful web service using PHP and mysql as data provider.</li>
+<ul><li>Angualr</li><li>service for notifications user angularJS-Toaster</li><li>Trello</li><li>WAVE for userbility check</li><li>ReSTful web service using PHP and mysql as data provider.</li>
 </ul>
 
 <h3>============Beskrivelse av arbeidsmetoden dere har valgt============</h3>
