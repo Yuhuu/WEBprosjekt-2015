@@ -16,12 +16,13 @@
               pass VARCHAR(16),
               INDEX(user(6))');
 
-  createTable('plans', 
+  createTable('evens', 
               'id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
               auth VARCHAR(16),
               recip VARCHAR(16),
+//              fridents list for this event
               time INT UNSIGNED,
-              message VARCHAR(4096),
+              description VARCHAR(4096),
               INDEX(auth(6)),
               INDEX(recip(6))');
 
@@ -33,8 +34,9 @@
 
   createTable('profiles',
               'user VARCHAR(16),
-              text VARCHAR(4096),
-              INDEX(user(6))');
+               text VARCHAR(4096),
+               aboutme VARCHAR(4096),
+               INDEX(user(6))');
 ?>
 
     <br>...done.

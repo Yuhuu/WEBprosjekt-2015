@@ -56,7 +56,7 @@ include "login.php";
 	    <button class="submitButton" ng-click="post.recip=!post.recip">Angre</button> 
 	    <input class="inputPsw" placeholder="passord" type="password" name="something" ng-model="psw" />
 	  </form>
-	 </div>
+    </div>
 
 
 
