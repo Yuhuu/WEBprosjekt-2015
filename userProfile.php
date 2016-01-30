@@ -24,13 +24,13 @@ if (isset($_SESSION['user']))
 if(checkUser())
   {
     global $user;
-    echo "Welcome, $user !</a></li>"  .     
-         "<li><a href='logout.php'>Log out</a></li>";
-    echo "<li><a href='members.php?view=$user'>Home</a></li>" .       
-         "<li><a href='messages.php'>Messages";
+    echo "Welcome, $user</a></li>"  .     
+         "<li class='col-md-2'><a href='logout.php'>Logout</a></li>".
+         "<li class='col-md-2'><a href=''>Home</a></li>" .       
+         "<li class='col-md-2'><a href=''>Messages";
   }
     else {
         echo "Sign up</a></li>"            .
-          "<li><a href=''>Log in";
+          "<li class='col-md-5'><a href=''>Log in";
     }
 ?>

@@ -20,7 +20,6 @@
               'id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
               auth VARCHAR(16),
               recip VARCHAR(16),
-//              fridents list for this event
               time INT UNSIGNED,
               description VARCHAR(4096),
               INDEX(auth(6)),

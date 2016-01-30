@@ -1,9 +1,7 @@
 <?php
 require_once 'functions.php';
 ?>
-<?php
-include "login.php";
-?>
+
 <nav class="navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -12,28 +10,34 @@ include "login.php";
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="pull-left" href="#"><img src="/WEBprosjekt-2015/images/logo.png" alt="logo View">
+        <a class="pull-left col-sm-3" href="#"><img src="/WEBprosjekt-2015/images/logo.png" alt="logo View">
         </a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-        <li><a href="" id ="flip" ><i class="fa fa-user"></i>&nbsp<i class="fa fa-list"></i>
+    <div class="collapse navbar-collapse" id="myNavbar" style="background-color:lightgray;">
+        <ul class="nav navbar-nav navbar-left col-xs-12 col-md-6">
+        <li class="col-md-6" style='background-color:lightgoldenrodyellow;'><a href="" id ="flip" ><i class="fa fa-list"></i>
         <?php
         include "userProfile.php";
         ?>
             </a>
         </li>
       	</ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#section1">Norsk</a></li>
-          <li><a href="#section2">section2</a></li>
-          <li><a href="#section3">section3</a></li>
-          <li><a href="#section3">section4</a></li>
+         
+        <ul class="nav navbar-nav col-xs-12 col-md-5">
+          <li class="col-sm-6 col-xs-6 col-md-3" style="background-color:lavender;"><a href="#section1">Norsk</a></li>
+          <li class="col-sm-6 col-xs-6 col-md-3" style="background-color:lavenderblush;"><a href="#section2">section2</a></li>
+          <div class="clearfix visible-sm"></div>
+          <li class="col-sm-6 col-xs-6 col-md-3" style="background-color:lightgoldenrodyellow;"><a href="#section3">section3</a></li>
+          <li class="col-sm-6 col-xs-6 col-md-3" style="background-color:lightcyan;"><a href="#section3">section4</a></li>
         </ul>
     </div>
   </div>
 </nav>
-      <div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
+
+<?php
+include "login.php";
+?>
+<!--      <div id="main-content" ng-controller="PostCtrl" ng-init="getPosts()">
       <input class="hidden" type="checkbox" ng-model="viewEditPost" />
       <a href="#" class="submitButton" ng-click="viewEditPost=!viewEditPost"></a>
 	<form class="postForm" ng-submit="newPost(this);viewEditPost=!viewEditPost">
@@ -56,7 +60,7 @@ include "login.php";
 	    <button class="submitButton" ng-click="post.recip=!post.recip">Angre</button> 
 	    <input class="inputPsw" placeholder="passord" type="password" name="something" ng-model="psw" />
 	  </form>
-    </div>
+    </div>-->
 
 
 

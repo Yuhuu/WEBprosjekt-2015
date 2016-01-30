@@ -1,31 +1,54 @@
 <!--http://tutsnare.com/post-form-data-using-angularjs/-->
-<div class="container">
+<div class="space-6" style="margin-top:20px;"></div>
+<div class="breadcrumbs" id="breadcrumbs" style="margin-top:20px;">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="#">Home</a>
+        </li>
+        <li class="active">Login</li>
+    </ul>
+</div>
+
+<div class="container col-xs-12 col-md-10 col-md-offset-1" style="margin-top:20px;">
     
-    <form class="form-inline" name="registerForm" ng-submit="doSubmit()" vmsgs-form>
-    <div class="input-group">
-      <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-      <input type="email"
-             name = "myEmail"
-             vmsg
-             ng-model="user.myEmail"
-             ng-minlength ="10"
-             class="form-control" 
-             placeholder="{{errorUserName}}" />
-      
-      
+    <form class="form-inline" action="" name="registerForm" ng-submit="doSubmit()" 
+          ng-init="user.myEmail = 'Please enter your email';user.myPassword = 'Please enter your password'"
+          vmsgs-form>
+    <div class="input-group col-xs-12 col-md-5" >
+            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+            <input type="email"
+                   name = "myEmail"
+                   vmsg
+                   ng-model="user.myEmail"
+                   ng-minlength ="10"
+                   class="form-control" 
+                   /></div>
+    <div class="input-group col-xs-12 col-md-5" >
+        <span ng-show="registerForm.myEmail.$touched && registerForm.myEmail.$invalid">
+            The correct email address is required,it should contain minimun 10 character</span>
     </div>
-    <div class="input-group">
-      <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-      <input type="password" 
-             name = "myPassword"
-             vmsg
-             ng-model="user.myPassword"
-             class="form-control" 
-             placeholder="{{errorPassword}}"/>
-<!--      <span ng-show="errorPassword">{{errorPassword}}</span>-->
+    <div class="input-group col-xs-12 col-md-5" style="margin-top:10px;">
+    
+            <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+            <input type="password" 
+                   name = "myPassword"
+                   vmsg
+                   ng-model="user.myPassword"
+                   ng-minlength ="3"
+                   class="form-control" 
+                   /></div>
+   <div class="input-group col-xs-12 col-md-5" >
+       <span ng-show="registerForm.myPassword.$touched && registerForm.myPassword.$invalid">
+            The myPassword is required, it should contain minimun 3 character</span>
+       <span>{{cancelsucceed}}</span>
+   </div>
+    
+    <div class="input-group col-xs-3" style="margin-top:20px;">
+<!--    <input type="button" value="Cancel changes" />-->
+    <button type="button" data-ng-click="doCancel()" class="btn btn-default col-md-12">Cancel changes</button>
+    <button type="submit" class="btn btn-default col-md-12">Registe</button>
     </div>
-    <button data-ng-click="user.myEmail=''; user.myPassword=''" class="btn btn-default">Clear</button>
-    <button type="submit" class="btn btn-default">Registe</button>
   </form>
 </div>
 <script>
@@ -44,7 +67,7 @@ postApp.controller('myCtrl', function($scope, $http) {
          })
         .success(function(data){
             if (data.errors) {
-              // Showing errors.
+              // Showing errors in data array
               $scope.errorUserName = data.errors.myEmail;
               $scope.errorPassword = data.errors.myPassword;
             } else {
@@ -53,5 +76,10 @@ postApp.controller('myCtrl', function($scope, $http) {
             }
         });
     };
+    $scope.doCancel = function(){
+        $scope.user.myEmail='';
+        $scope.user.myPassword ='';
+        $scope.cancelsucceed = 'You had just cleared your input';
+    }
  });
 </script>
